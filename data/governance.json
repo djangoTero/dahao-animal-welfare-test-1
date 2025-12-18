@@ -52,10 +52,15 @@
   },
 
   "timing": {
-    "inherits": "dahao-org/core governance.timing",
-    "domain_additions": {
-      "species_discussion_days": 5,
-      "practice_discussion_days": 7
+    "discussion_minimum_days": {
+      "term": 0.003,      
+      "rule": 0.005,      
+      "principle": 0.01   
+    },
+    "voting_minimum_days": {
+      "term": 0.002,      
+      "rule": 0.002,
+      "principle": 0.005
     }
   },
 
